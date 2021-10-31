@@ -1,0 +1,307 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4 , h5, h6{
+	font-family: 'Lato', sans-serif;
+}
+a, a:hover{
+  text-decoration: none;
+}
+/****************
+   ************Strict Home page css main code start***********
+******************/
+.header-section{
+	width:100%;
+	padding:15px 0px;
+	background: #f6f9f9;
+}
+.logo{
+	width:100%;
+}
+/******************* Banner section code goes here   *********************/
+.banner-section{
+    width:100%;
+	padding: 80px 0px;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+
+}
+.banner-inner{
+	width:100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.banner-inner h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 85px;
+	font-weight: 700;
+	text-transform:uppercase; 
+	color: #fff;
+}
+.banner-inner .divider{
+	width: 40%;
+	height:2px;
+	margin: 20px auto;
+	background: #15a4fa;
+}
+.banner-inner p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	background: transparent;
+	color: #fff;
+	margin-bottom:50px;
+}
+.banner-inner .btn-info{
+	 font-family: 'Lato', sans-serif;
+	padding:10px 35px;
+	background:transparent;
+	color: #fff;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+	font-size: 14px;
+}
+.banner-inner .btn-info:hover{
+	color:#fff;
+	background-color: #15a4fa;
+	border:1px solid #15a4fa;
+
+}
+.banner-inner .arrow{
+	width: 100%; 
+	margin-top:40px; 
+}
+.banner-inner .arrow .arrow-icon{
+	margin-top: 100px;
+	transform: translate(0%,100%);
+}
+/************************** Simple & pure sex Css start ************/
+.simple-section{
+	width:100%;
+	padding:60px 0px;
+	background: #f6f9f9;
+    
+}
+.simple-innner{
+	width:100%;
+	text-align:center;
+}
+.simple-innner h1{
+  font-size:42px;
+  font-weight:400;
+  line-height:57px;
+  color:#2d3950;
+  margin-bottom: 15px;
+
+}
+.simple-innner p{
+  font-size:16px;
+  font-weight:400;
+  line-height:26px;
+  color:#999;
+  margin-bottom: 15px;
+}
+/***************************************
+feature-section css goes here
+******************************************/
+.feature{
+    width:100%;
+	padding:60px 0px;
+}
+.feature .feature-inner{
+	width:100%;
+	text-align:center;
+}
+.feature .feature-inner img{
+	margin-bottom: 15px;
+}
+.feature-inner h4{
+  font-size:22px;
+  font-weight:400;
+  line-height:32px;
+  color:#2d3950;
+  margin-bottom: 10px;
+
+}
+.feature-inner p{
+font-size:16px;
+  font-weight:400;
+  line-height:26px;
+  color:#999;
+  margin-bottom: 15px;
+}
+
+/**********************************************************
+protfolios section css goes here
+*************************************************/
+.protfolios{
+	width:100%;
+	padding:80px 0px;
+	background: #f6f9f9;
+}
+.protfolios .title{
+	width: 100%;
+	text-align:center;
+	padding-bottom:40px;
+}
+.protfolios .title h1{
+  font-size:42px;
+  font-weight:400;
+  line-height:52px;
+  color:#2d3950;
+  margin-bottom:5px;
+}
+.protfolios .title p{
+  font-size:14px;
+  font-weight:400;
+  line-height:24px;
+  color:#999;
+}
+.protfolios .card{
+	margin-bottom:25px;
+	border-radius:0px;
+	border:0px;
+}
+
+.protfolios .card .card-img-top {
+    border-bottom-left-radius: inherit !important;
+    border-bottom-right-radius: inherit !important;
+}
+.protfolios .port-hover{
+	text-align: center;
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0%;
+	left:0%;
+	background: rgb(29,156,236,  .6); 
+	display: none;
+}
+.protfolios .port-hover .icons{
+	position:absolute;
+	top:43%;
+	left:36%;
+}
+.protfolios .card:hover .port-hover{
+	display:block;
+	transition: 1s;
+}
+/****************************************************
+************stay-us section code goes here
+*****************************************************/
+.stay-us{
+	width:100%;
+    padding: 80px 0px;
+    background: url("../images/bg.png") center top no-repeat;
+    background-size:cover;
+}
+.stay-us .title{
+	width: 100%; 
+	text-align:center;
+	margin-bottom: 50px;
+}
+.stay-us .title h1{
+  font-size:42px;
+  font-weight:400;
+  line-height:52px;
+  color:#ffffff;
+  margin-bottom:5px;
+}
+.stay-us .title p{
+  font-size:14px;
+  font-weight:400;
+  line-height:24px;
+  color:#999;
+}
+.stay-us .contact-form{
+	width:100%; 
+}
+.stay-us .contact-form .form-group{
+	width:100%;
+	margin:5px 0px;
+
+}
+.stay-us .contact-form .form-group .form-control{
+	width:100%;
+	height:auto;
+	background: transparent;
+	border:1px solid #999999;
+	padding:15px 10px;
+	border-radius:5px;
+	margin:15px 0px;
+	color:#aaa;
+	font-size:14px;
+	outline:inherit !important; 
+}
+.stay-us .contact-form .form-group textarea {
+	height:180px !important;
+}
+.stay-us .contact-form .form-group span{
+	color:#fff;
+	font-size: 14px;
+	margin-left: 14px;
+} 
+.stay-us .contact-form .btn-info{
+	font-family: 'Lato', sans-serif;
+	padding:10px 35px;
+	background:transparent;
+	color: #fff;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+	font-size: 14px;
+}
+.stay-us .contact-form .btn-info:hover{
+ background:#15a4fa;
+ color:#fff;
+ border:1px solid #15a4fa;
+}
+/******************************************************
+footer section css goes here
+***************************************************/
+.footer-section{
+	width:100%;
+	padding:15px 0px;
+}
+.footer-section .copyright{
+	font-size: 14px;
+	color:#acacac;
+	margin-top:10px;
+	margin-bottom: 0px;
+}
+.footer-section .social-icons{
+	width:100%;
+	text-align:right;
+}
+.footer-section .social-icons ul{ 
+	display:block;
+	margin-bottom:0px;
+}
+.footer-section .social-icons ul li{
+	display:inline-block;
+	list-style:none;
+}
+.footer-section .social-icons ul li a{
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+}
+.footer-section .social-icons ul li a .fa{
+	width:40px;
+	height:40px;
+	line-height:40px;
+	border-radius:2px;
+	background:#15a4fa;
+    color:#fff;
+    border:1px solid #15a4fa;
+}
+.footer-section .social-icons ul li a .fa:hover{
+	background: transparent;
+	color:#15a4fa;
+	border:1px solid #15a4fa;
+}
